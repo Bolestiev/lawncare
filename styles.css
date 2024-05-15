@@ -34,7 +34,6 @@ body {
   align-items: center;
   color: white;
   font-weight: 700;
-
 }
 
 .header__logo__headging_top {
@@ -72,7 +71,7 @@ body {
   max-width: 983px;
   text-align: center;
   font-weight: 900;
-  text-shadow: 0px 0px 40px rgba(0,0,0,0.5);
+  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
   margin-top: 17px;
 }
 
@@ -85,11 +84,22 @@ body {
   width: 180px;
   height: 70px;
   margin-top: 100px;
-  box-shadow: 0px 10px 50px rgba(16,51,30,0.5);
+  box-shadow: 0px 10px 50px rgba(16, 51, 30, 0.5);
 }
 
 .header__bottom-button > span {
   font-size: 18px;
-  color: #48924F;
+  color: #48924f;
   font-weight: 700;
+}
+
+.headliner-two {
+  font-size: 144px;
+  line-height: 134.5px;
+  color: gray;
+  max-width: 284px;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+  margin-top: 70px;
 }
