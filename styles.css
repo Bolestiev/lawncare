@@ -93,13 +93,37 @@ body {
   font-weight: 700;
 }
 
-.headliner-two {
-  font-size: 144px;
-  line-height: 134.5px;
-  color: gray;
-  max-width: 284px;
+/* --------SERVICES----------- */
+
+.services {
+  font-weight: 800;
+  font-size: 64px;
   text-align: center;
+  color: #828282;
+}
+.services-title {
+}
+.services-list {
+}
+.services-item {
+}
+.services-image {
+}
+.services-subtitle {
   font-weight: 900;
-  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
-  margin-top: 70px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0d4d14;
+}
+.services-text-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #0d4d14;
+}
+.services-btn {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #6cb981;
 }
