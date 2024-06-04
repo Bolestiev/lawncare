@@ -267,6 +267,40 @@ ul {
 
 /* ---------------TESTIMONIALS--------------------- */
 
+.testimonials-card-wrapper {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+.testimonials-card {
+  display: flex;
+  gap: 14px;
+  border: 1px solid #6CB981;
+  border-radius: 40px;
+  padding: 30px;
+  width: 577px;
+}
+
+.card-content-wrapper h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6CB981;
+}
+
+.card-content-wrapper p {
+  margin-top: 13px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0D4C14;
+}
+
+.card-content-wrapper img {
+  margin-top: 10px;
+}
+
 .testimonials {
 }
 .testimonials-title {
@@ -363,7 +397,7 @@ ul {
 /* ------------FOOTER----------------- */
 
 .footer {
-}
-.footer-image {
-  background: #324b29;
+  background: #324B29;
+  height: 145px;
+  width: 100%;
 }
