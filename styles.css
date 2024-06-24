@@ -267,6 +267,40 @@ ul {
 
 /* ---------------TESTIMONIALS--------------------- */
 
+.testimonials-card-wrapper {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+.testimonials-card {
+  display: flex;
+  gap: 14px;
+  border: 1px solid #6cb981;
+  border-radius: 40px;
+  padding: 30px;
+  width: 577px;
+}
+
+.card-content-wrapper h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6cb981;
+}
+
+.card-content-wrapper p {
+  margin-top: 13px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0d4c14;
+}
+
+.card-content-wrapper img {
+  margin-top: 10px;
+}
+
 .testimonials {
 }
 .testimonials-title {
@@ -337,22 +371,47 @@ ul {
   text-align: center;
   color: #828282;
 }
-.container-finish {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  display: block;
-  align-items: baseline;
+
+.styles-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.green {
-  background: #9fdea9;
+
+.green-cards {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
+.green-card {
+  display: flex;
+  position: relative;
+  border-radius: 61px;
+  width: 374px;
+  height: 56px;
+}
+
+.green-card-two {
+  padding-top: 14px;
+}
+
+.green-card-three {
+  padding-top: 14px;
+}
+
+.green {
+  background: #9fdea9;
+}
 .contact-us-address {
+  display: flex;
+  flex-direction: column;
 }
 .container-address-finish {
-  display: flex;
 }
 .contact-address-list {
 }
@@ -363,7 +422,7 @@ ul {
 /* ------------FOOTER----------------- */
 
 .footer {
-}
-.footer-image {
   background: #324b29;
+  height: 145px;
+  width: 100%;
 }
