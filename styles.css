@@ -214,7 +214,6 @@ ul {
 
 .about-us-container {
   background-image: url(./img/Rectangle-au.jpg);
-  margin-top: 50px;
   text-align: center;
 }
 
@@ -225,11 +224,20 @@ ul {
   color: #828282;
   margin-bottom: 50px;
 }
+
+.service-svg-two {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  right: -150px;
+  top: -100px;
+  transform: skewY(-5deg);
+}
+
 .about-us-list {
   display: flex;
   gap: 60px;
-  padding-top: 154px;
-  margin: 0;
+  padding-top: 50px;
   list-style: none;
   text-align: center;
 }
@@ -371,18 +379,14 @@ ul {
   text-align: center;
   color: #828282;
 }
-
-.styles-contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.container-finish {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: block;
+  align-items: baseline;
 }
-
-.green-cards {
+.green {
+  background: #9fdea9;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -408,12 +412,16 @@ ul {
   background: #9fdea9;
 }
 .contact-us-address {
-  display: flex;
-  flex-direction: column;
 }
 .container-address-finish {
+  display: flex;
 }
 .contact-address-list {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-right: 557px;
+  margin-left: 100px;
 }
 .contact-address-item {
   font-family: "Poppins", sans-serif;
