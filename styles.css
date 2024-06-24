@@ -379,17 +379,25 @@ ul {
   text-align: center;
   color: #828282;
 }
-.container-finish {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  display: block;
-  align-items: baseline;
+
+.styles-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.green {
-  background: #9fdea9;
+
+.green-cards {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.green {
+  background: #9fdea9;
 }
 
 .green-card {
@@ -412,10 +420,10 @@ ul {
   background: #9fdea9;
 }
 .contact-us-address {
-}
-.container-address-finish {
   display: flex;
+  flex-direction: column;
 }
+
 .contact-address-list {
   display: block;
   align-items: center;
