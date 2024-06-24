@@ -391,6 +391,10 @@ ul {
   height: 266px;
 }
 
+.green-cards {
+  display: flex;
+}
+
 .green-card {
   display: flex;
   position: relative;
