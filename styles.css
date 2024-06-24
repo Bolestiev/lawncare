@@ -143,7 +143,10 @@ ul {
 
 .service-svg {
   position: relative;
-  justify-items: center;
+  display: flex;
+  margin: 0 auto;
+  left: -90px;
+  top: -50px;
 }
 
 .services-list {
@@ -211,7 +214,6 @@ ul {
 
 .about-us-container {
   background-image: url(./img/Rectangle-au.jpg);
-  margin-top: 50px;
   text-align: center;
 }
 
@@ -222,11 +224,20 @@ ul {
   color: #828282;
   margin-bottom: 50px;
 }
+
+.service-svg-two {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  right: -150px;
+  top: -100px;
+  transform: skewY(-5deg);
+}
+
 .about-us-list {
   display: flex;
   gap: 60px;
-  padding-top: 154px;
-  margin: 0;
+  padding-top: 50px;
   list-style: none;
   text-align: center;
 }
@@ -263,6 +274,40 @@ ul {
 }
 
 /* ---------------TESTIMONIALS--------------------- */
+
+.testimonials-card-wrapper {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+}
+
+.testimonials-card {
+  display: flex;
+  gap: 14px;
+  border: 1px solid #6cb981;
+  border-radius: 40px;
+  padding: 30px;
+  width: 577px;
+}
+
+.card-content-wrapper h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6cb981;
+}
+
+.card-content-wrapper p {
+  margin-top: 13px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #0d4c14;
+}
+
+.card-content-wrapper img {
+  margin-top: 10px;
+}
 
 .testimonials {
 }
@@ -335,23 +380,57 @@ ul {
   color: #828282;
 }
 .container-finish {
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 100px;
   display: block;
-  align-items: baseline;
+  justify-content: center;
+  margin-left: 558px;
+  margin-right: 100px;
+  flex-wrap: wrap;
+  width: 788px;
+  height: 266px;
 }
+
+.green-cards {
+  display: flex;
+}
+
+.green-card {
+  display: flex;
+  position: relative;
+  border-radius: 61px;
+  width: 374px;
+  height: 56px;
+}
+
+.green-card-two {
+  padding-top: 14px;
+}
+
+.green-card-three {
+  padding-top: 14px;
+}
+
 .green {
   background: #9fdea9;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 .contact-us-address {
+  display: flex;
+  flex-wrap: wrap;
+  width: 314px;
+  height: 132px;
 }
 .container-address-finish {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact-address-list {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-right: 557px;
+  margin-left: 100px;
 }
 .contact-address-item {
   font-family: "Poppins", sans-serif;
@@ -360,7 +439,7 @@ ul {
 /* ------------FOOTER----------------- */
 
 .footer {
-}
-.footer-image {
   background: #324b29;
+  height: 145px;
+  width: 100%;
 }
