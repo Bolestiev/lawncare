@@ -386,6 +386,9 @@ ul {
   justify-content: center;
   margin-left: 558px;
   margin-right: 100px;
+  flex-wrap: wrap;
+  width: 788px;
+  height: 266px;
 }
 
 .green-card {
@@ -408,6 +411,10 @@ ul {
   background: #9fdea9;
 }
 .contact-us-address {
+  display: flex;
+  flex-wrap: wrap;
+  width: 314px;
+  height: 132px;
 }
 .container-address-finish {
   display: flex;
